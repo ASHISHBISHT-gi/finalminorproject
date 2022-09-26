@@ -37,11 +37,12 @@ body{
     margin: 0% 0% 0% 6%;
     
 }
-.navigationElements h3{
+.navigationElements A{
     color: #ffff;   
     margin: 0% 1.5em;
     font-size: 1.3em;
     font-family: 'Inter', sans-serif;
+    text-decoration: none;
 }
 .heading{
     margin-left: 5%;
@@ -270,4 +271,62 @@ body{
     -webkit-background-clip : text;
     
     -webkit-text-fill-color: transparent;
+}
+
+.loginform{
+    left: 30%;
+    width: 40%;
+    background-color: rgb(136, 131, 131);
+    height: 70%;
+    position: absolute;
+    border-radius: 5%;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 5;
+}
+.loginform h1{
+    font-size: 3rem;
+    background: var(--primary);
+    background-clip: content-box;
+    -webkit-background-clip : text;
+    
+    -webkit-text-fill-color: transparent;
+}
+.fields{
+    width:80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15%;
+    z-index: 5;
+}
+.fields input{
+    width: 100%;
+    height: 3rem;
+    margin: 5% 0%;
+    border: none;
+    border-bottom: black solid 2px;
+    background: #04132f;
+    background-clip: content-box;
+    -webkit-background-clip : text;
+    
+    -webkit-text-fill-color: transparent;
+    
+
+    text-decoration: none;
+    font-size: 1.3rem;
+    outline: none;
+    padding: 0%;
+    
+
+}
+.fields input::placeholder{
+    color: #04132f;
+    margin: 0;
+}
+#login2{
+    margin-bottom: 5%;
 }
