@@ -12,6 +12,3 @@ submitBtn.addEventListener("click",()=>{
 })
 
 
-void updateCasrol(){
-    
-}

@@ -122,3 +122,70 @@ a{
     color: white;
     text-decoration: none;
 }
+.artistCardContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.ArtistCard{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+.ArtistDetails{
+    width:50%;
+    padding: 0% 15%;
+    color: white;
+}
+.ArtistImage{
+    width: 50%;
+    overflow: hidden;
+}
+.whiteUnderLine{
+    margin: 5% 0%;
+    width: 80vw;
+    height: 0.1rem;
+    background-color: #9355b0;
+
+}
+.reverseArtistCard{
+
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    
+}
+.reverseArtistCard>.ArtistImage{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    
+}
+.comHeroSection{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+.comleftHero{
+    padding-right: 20%;
+    width: 22rem;
+}
+.comleftHero h1{
+    font-size: 1.8rem;
+}
+.commurightHero{
+    width: 20%;
+    height: 60%;
+    border-radius: 3%/5%;
+    overflow: hidden;
+    min-width: 30rem;
+    min-height: 20rem;
+}
+.commurightHero video{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}

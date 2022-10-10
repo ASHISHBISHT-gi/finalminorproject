@@ -210,7 +210,7 @@ body{
     font-size: 1rem;
     margin: 2% 0%;
 }
-#corsal1{
+#corsal1,#corsal2{
     margin-bottom: 8%;
     overflow-y: visible ;
     min-height: fit-content;
